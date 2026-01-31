@@ -1,11 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "tailwindcss";
 
+/* ajustes globales */
 body {
-    background: var(--bg-color);
-    color: var(--text-color);
-    font-family: var(--font-main);
+    @apply bg-black text-white font-sans;
 }
