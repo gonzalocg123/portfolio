@@ -1,16 +1,30 @@
-# React + Vite
+# Portfolio – Gonzalo Chica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal como desarrollador de software.  
+Enfocado en mostrar mi perfil como **Desarrollador Full Stack Junior**, mis proyectos y mi trayectoria técnica.
 
-Currently, two official plugins are available:
+## Sobre mí
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM), orientado al desarrollo back-end y a la construcción de software limpio, mantenible y bien estructurado.
 
-## React Compiler
+Me interesa trabajar en proyectos reales donde el código tenga impacto y exista margen de mejora continua.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack principal
 
-## Expanding the ESLint configuration
+- **Frontend:** React, JavaScript, Tailwind CSS, HTML5, CSS3  
+- **Backend:** Java, Spring Boot, Node.js  
+- **Bases de datos:** MySQL, PostgreSQL  
+- **Herramientas:** Git, GitHub, Docker, Linux  
+- **Metodologías:** Agile / Scrum
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contenido del portfolio
+
+- Presentación personal
+- Stack tecnológico
+- Selección de proyectos
+- Trayectoria académica y profesional
+- Información de contacto
+
+## Objetivo
+
+Seguir creciendo como desarrollador, consolidar bases sólidas en entornos profesionales y evolucionar progresivamente hacia perfiles con mayor responsabilidad técnica.
