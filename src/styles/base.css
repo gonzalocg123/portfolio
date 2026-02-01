@@ -1,6 +1,60 @@
 @import "tailwindcss";
 
-/* ajustes globales */
-body {
-    @apply bg-black text-white font-sans;
+@theme {
+    --color-bg-dark: #000000;
+    --color-text-main: #ffffff;
+    --color-text-muted: #888888;
+    --color-accent-indigo: #ffffff;
+
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply font-sans antialiased bg-bg-dark text-text-main;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply text-text-main;
+    }
+
+    ::selection {
+        @apply text-black bg-white;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-bg-dark;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply transition-colors border-4 border-solid rounded-full bg-white/10 border-bg-dark hover:bg-white/20;
+    }
+}
+
+@layer components {
+
+    /* 
+     * Padding optimizado para móviles: menos espacio vertical en pantallas pequeñas
+     * para aprovechar mejor el viewport limitado.
+     */
+    .section-padding {
+        @apply px-4 py-16 sm:px-6 md:px-12 lg:px-24 md:py-20;
+    }
+
+    .max-w-content {
+        @apply max-w-5xl mx-auto;
+    }
 }
